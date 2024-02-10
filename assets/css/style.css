@@ -1,0 +1,128 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+
+*{
+    box-sizing: border-box;
+    outline: 0;
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: rgb(221, 221, 221);
+    width: 600px;
+    margin: auto;
+    font-family: Open sans;
+}
+
+@media (max-width: 700px){
+
+    body{
+        width: 360px;
+    }
+
+    form{
+        text-align: center;
+    }
+
+    form input{
+        margin: auto;
+        width: 250px;
+    }
+
+
+    button{
+        width: 100px;
+    }
+}
+
+section{
+    box-shadow: 1px 0px 22px -4px rgba(48,119,173,1);
+    color: white;
+    padding: 30px;
+    background-color: rgb(37, 113, 255);
+}
+
+section h1{
+    text-align: center;
+    padding: 15px;
+}
+
+form, input{
+    font-size: 1.0em;
+}
+
+label{
+    font-family: Open sans;
+    font-size: bold;
+    color: rgb(255, 255, 255);
+    font-size: 1.2em;
+}
+
+input{
+    box-shadow: 1px 0px 22px -4px rgba(48,119,173,1);
+    border: none;
+    border-radius: 10px;
+}
+
+input, button{
+    width: 100%;
+    padding: 10px;
+    display: block;
+}
+
+button{ 
+    padding: 10px;
+    box-shadow: 1px 0px 22px -4px rgba(48,119,173,1);
+    color: white;
+    background-color: rgb(35, 35, 140);
+    border: none;
+    border-radius: 10px;
+    font-size: 1.3em;
+    font-family: Open sans;
+    font-size: bold;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+button:hover{
+    color: black;
+    background-color: rgb(127, 223, 255);
+}
+
+.container{
+    border-radius: 15px;
+    padding: 2px;
+    background-color: rgba(32, 72, 114, 0.575);
+    display: flex;
+}
+
+.imc-number{
+    padding: 5px;
+    margin: auto;
+}
+
+.imc-classification{
+    padding: 5px;
+    margin: auto;
+}
+
+#send-button{
+    font-family: Open sans;
+    font-size: 1.3em;
+    margin-top: 15px;
+    cursor: pointer;
+}
+
+.result{
+    color: white;
+    margin-top: 15px;
+    border-radius: 15px;
+    font-family: Open sans;
+    text-align: center;
+    padding: 15px;
+}
+
+h2{
+    padding: 10px;
+}
